@@ -8,7 +8,7 @@ public class qualityAdjustedLifeYear {
     // int qualityOfLife 
     // int numOfYears 
 
-    
+    for (int numOfYears = 5; numOfYears < 6; numOfYears++)
   scan.close();
   }
 }
