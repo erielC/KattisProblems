@@ -4,15 +4,15 @@ import java.util.Scanner;
 public class qualityAdjustedLifeYear {
   public static void main(String[] args){
     int i; 
-    float q,y;
-    float total = 0;
+    double q,y;
+    double total = 0;
 
     Scanner scan = new Scanner(System.in);
     int n = scan.nextInt();
-    
+
     for (i = 0; i < n; i++) {
-      q = scan.nextFloat();
-      y = scan.nextFloat();
+      q = scan.nextDouble();
+      y = scan.nextDouble();
       total += q*y;
     }
     scan.close();
