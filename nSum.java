@@ -6,7 +6,6 @@ public class nSum {
 
     int i, numX;
     int total = 0;
-     
 
     int n = scan.nextInt();
 
