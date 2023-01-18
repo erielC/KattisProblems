@@ -13,8 +13,8 @@ public class nSum {
       numX = scan.nextInt();
       total += numX;
     }
+    scan.close();
     
     System.out.println(total);
-    scan.close();
   }
 }
