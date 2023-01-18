@@ -6,10 +6,12 @@ public class fyi {
 
     int num = scan.nextInt();
     scan.close();
-
+    //Converting Integer to String
     String beginningNum = Integer.toString(num);
-    String phoneLength = beginningNum.substring(0,3);
 
+    //Finding First three numbers
+    String phoneLength = beginningNum.substring(0,3);
+    // Converting String back to Integer
     int convertFirstThree = Integer.parseInt(phoneLength);
 
     if (convertFirstThree == 555) {
