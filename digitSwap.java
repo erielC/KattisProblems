@@ -5,7 +5,10 @@ public class digitSwap {
     Scanner scan = new Scanner(System.in);
 
     int x = scan.nextInt(); 
-  
+    
+    // Turn into an String 
+
+    //Get subtring of Num and printing index 1 then index 0
    
   }
 }
