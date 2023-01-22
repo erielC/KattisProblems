@@ -15,11 +15,5 @@ public class digitSwap {
     System.out.print(conversion.substring(0,1));
 
     
-
-    
-    // Turn into an String 
-
-    //Get subtring of Num and printing index 1 then index 0
-   
   }
 }
