@@ -16,7 +16,10 @@ public class digitSwap {
 
     
 
-  
+    
+    // Turn into an String 
+
+    //Get subtring of Num and printing index 1 then index 0
    
   }
 }
