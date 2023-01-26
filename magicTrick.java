@@ -6,7 +6,7 @@ public class magicTrick {
    
     String word = scan.nextLine();
     int ans = 1;
-
+    scan.close();
     for (int i = 0; i < word.length(); i++) {
       for (int j = i + 1; j < word.length(); j++) {
        if (word.substring(i, i + 1).equals(word.substring(j, j +1))){
@@ -15,6 +15,7 @@ public class magicTrick {
        
       }
     }
+    scan.close();
     System.out.println(ans);
   }
 }
