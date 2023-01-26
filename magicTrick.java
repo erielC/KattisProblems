@@ -15,7 +15,7 @@ public class magicTrick {
        
       }
     }
-    scan.close();
+    scan.close();  
     System.out.println(ans);
   }
 }
