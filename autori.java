@@ -11,9 +11,6 @@ public class autori {
     } else {
       System.out.println(word.substring(0,1) + word.substring(6, 7) + word.substring(13, 14));
     }
-
-    
-
     scan.close();
   }
 }
