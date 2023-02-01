@@ -14,12 +14,14 @@ public class tarifa {
 
     int added = x + workWith;
  
+    int total = 0;
+
     for(int i = 0; i < (y-1); i++) {
       int n = scan.nextInt();
       x += added - n;
+      total += x;
     }
     scan.close();
-    int total = 0;
   
     System.out.println(total);
   }
