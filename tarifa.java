@@ -8,19 +8,14 @@ public class tarifa {
     // n = are the test cases that follow
     int x = scan.nextInt();
     int y = scan.nextInt();
+    int total = x;
 
-    int firstCase = scan.nextInt();
-    int workWith = x - firstCase;
-
-    int added = x + workWith;
- 
-    int total = 0;
-
-    for(int i = 0; i < (y-1); i++) {
+    for(int i = 0; i < y; i++) {
       int n = scan.nextInt();
-      x += added - n;
-      total += x;
+      int remainder = x - n;
+      total += remainder; 
     }
+    
     scan.close();
   
     System.out.println(total);
