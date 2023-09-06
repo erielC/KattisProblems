@@ -7,7 +7,7 @@ public class solvingForCarrots {
     int numOfContestants = scan.nextInt();
     int numOfCarrots = scan.nextInt();
     scan.close();
-
+ 
     System.out.println(numOfCarrots);
   }
 }
