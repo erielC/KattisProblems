@@ -11,4 +11,4 @@ public class twoSum{
 
     scan.close();
   }
-}
+} 
