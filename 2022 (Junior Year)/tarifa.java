@@ -12,7 +12,7 @@ public class tarifa {
 
     for(int i = 0; i < y; i++) {
       int n = scan.nextInt();
-      int remainder = x - n;
+      int remainder = x - n; 
       total += remainder; 
     }
     
