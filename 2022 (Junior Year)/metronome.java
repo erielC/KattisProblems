@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Formatter;
 
 public class metronome {
-  public static void main(String[] args) {
+  public static void main(String[] args) { 
     Scanner scan = new Scanner(System.in);
     Formatter dec = new Formatter();
 
