@@ -2,7 +2,7 @@ import java.util.Formatter;
 import java.util.Scanner;
 
 public class qualityAdjustedLifeYear {
-  public static void main(String[] args){
+  public static void main(String[] args){ 
     int i; 
     double q,y;
     double total = 0;
