@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class knightPacking {
   public static void main(String[] args) {
-    Scanner scan = new Scanner(System.in);
+    Scanner scan = new Scanner(System.in); 
 
     int chessBoardSize = scan.nextInt();
     scan.close();
