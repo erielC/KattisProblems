@@ -12,4 +12,4 @@ public class triangleArea {
     scan.close();
 
   }
-}
+} 
