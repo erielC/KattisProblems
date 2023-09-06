@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fizzBizz {
+public class fizzBizz { 
 public static void main(String[] args) {
   Scanner scan = new Scanner(System.in);
 
