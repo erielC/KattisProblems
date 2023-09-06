@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class magicTrick {
   public static void main(String[] args) {
-      Scanner scan = new Scanner(System.in);
+      Scanner scan = new Scanner(System.in); 
    
     String word = scan.nextLine();
     int ans = 1;
