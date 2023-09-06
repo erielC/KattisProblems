@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+ 
 public class filip {
 
   static int reverseA (int a) {
