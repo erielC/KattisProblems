@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class nastyHacks{
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
-
+ 
     int testCase = scan.nextInt();
 
     // R is expected revenue w/o advertisement
