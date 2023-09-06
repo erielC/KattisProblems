@@ -13,7 +13,7 @@ public class takeTwoStones {
 
     }
 
-    
+     
     scan.close();
   
   }
