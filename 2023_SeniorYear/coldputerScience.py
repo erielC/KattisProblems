@@ -6,4 +6,4 @@ for i in range(amount):
   if userInput < 0:
     tracker += 1
 
-print(tracker)
+print(tracker) 
